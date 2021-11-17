@@ -64,3 +64,6 @@ We can also enable caching so that Api gateway hold the result for same request 
 			
 - In the Ocelot.json	
 	"FileCacheOptions":  {"TtlSeconds" :  30}
+
+
+- We can pass Bearertoken to the api thru Ocelot apigate way .Read https://stackoverflow.com/questions/65962957/adding-authorization-header-authorization-bearer-access-token-to-specific-r
