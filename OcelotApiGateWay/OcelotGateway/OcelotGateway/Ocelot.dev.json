@@ -10,7 +10,11 @@
         }
       ],
       "UpstreamPathTemplate": "/api/weather",
-      "UpstreamHttpMethod": [ "Get" ]
+      "UpstreamHttpMethod": [ "Get" ],
+      //"AuthenticationOptions": {
+      //  "AuthenticationProviderKey": "Bearer",
+      //  "AllowedScopes": []
+      //}
     },
     {
       "DownstreamPathTemplate": "/weatherforecast/getname/{name}",
@@ -22,8 +26,12 @@
         }
       ],
       "UpstreamPathTemplate": "/api/getname/{name}",
-      "UpstreamHttpMethod": [ "Get" ]
-    }
+      "UpstreamHttpMethod": [ "Get" ],
+      //"AuthenticationOptions": {
+      //  "AuthenticationProviderKey": "Bearer",
+      //  "AllowedScopes": []
+      //}
+     }
   ],
   "GlobalConfiguration": {
     "BaseUrl" : "https://localhost:5001"
